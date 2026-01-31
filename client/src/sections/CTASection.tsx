@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function CTASection() {
 
-    const navigate = useNavigate
+    const navigate = useNavigate()
     return (
         <motion.div className="max-w-5xl py-16 mt-40 md:pl-20 md:w-full max-md:mx-4 md:mx-auto flex flex-col md:flex-row max-md:gap-6 items-center justify-between text-left bg-linear-to-b from-pink-900 to-pink-950 rounded-2xl p-6 text-white"
             initial={{ y: 150, opacity: 0 }}
