@@ -20,7 +20,7 @@ export default function Navbar() {
             <Link to='/'>
             <img src="/logo.svg" alt="logo" className="h-8.5 w-auto" />
             </Link>
-
+            
                 <div className="hidden md:flex items-center gap-8 transition duration-500">
                     <Link to='/' className="hover:text-pink-300 transition">Home</Link>
                     <Link to='/generate' className="hover:text-pink-300 transition">Generate</Link>
